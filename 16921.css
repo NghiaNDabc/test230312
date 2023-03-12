@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+.hoa img{
+    width: 240px;
+    height: 300px;
+}
+#header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    background-color: red;
+}
+#logo{
+    height: 50px;
+}
+#header-top-nav{
+
+    display: flex;
+    font-size: 20px;
+}
+#iteam{
+    color: gray;
+}
+#giohang{
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: pink;
+}
+#header-bot{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    background-color: pink;
+}
+#header-bot-menu{
+    width: 40%;
+}
+#header-bot-menu li{
+    line-height: 40px;
+    display: inline-table;
+    width: 23%;
+}
+#header-bot-menu li a{
+    color: white;
+    font-size: 19px;
+    display: block;
+    text-align: center;
+}
+#header-bot-menu li:hover a{
+    background-color: #FFCCFF;
+}
+#search input,#search button, #search select, span{
+    height: 40px;
+    margin-left: -4px;
+    border: none;
+    outline: none;
+}
+#search{
+    height: 42px;
+    /* display: flex;
+    align-items: center; */
+    /* background-color: white; */
+}
+#search input{
+    border-radius: 9px 0 0 9px;
+    margin-left: 0px;
+    width: 350px;
+    padding-left: 5px;
+    border-right: 2px solid black;
+}
+#search button{
+    margin-right: 10px;   border-radius:0  9px  9px 0;
+    background-color: yellow;
+    color: white;
+}
+#menu{
+    width: 15%;
+    float: left;
+    /* background-color: red; */
+    height: 500px;
+
+}
+#menu>ul>li{
+    height: 40px;
+    position: relative;
+    width: 100%;
+    border: 1px solid #999999;
+    border-top: none;
+    text-indent: 20px;
+}
+#menu>ul>li:first-child{
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#menu>ul>li a{
+    color: black;
+    font-size: 19px;
+    line-height: 40px;
+    display: block;
+    
+}
+#menu>ul>li:hover .menucon{
+    display: block;
+}
+.menucon{
+    color: black;
+    position: absolute;
+    left: 100%;
+    top: 0px;
+    display: none;
+}
+.menucon a{
+    color: black;
+}
+.menucon li{
+    line-height: 40px;
+}
+#contents{
+    float: left;
+    width: 85%;
+    position: relative;
+}
+.contents{
+    justify-content:space-around;
+    position: relative;
+    width: 100%;
+    height: 390px;
+    display: flex;
+}
+.infor{
+ width: 22%;
+ height: 100%;
+ border: 2px solid black;
+ /* margin-right: 20px; */
+}
+
+.infor img{
+    width: 100%;
+}
+
+.payfor{
+    background-color: white;
+    z-index: 1;
+    font-size: 19px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 100%;
+    /* background-color: red; */
+    top:20px;
+    display: none;
+}
+.hoa{
+    width: 100%;
+    position: relative;
+}
+.hoa:hover .payfor{
+    display: block;
+}
+
+.text, .price{
+    font-size: 18px;
+}
+.text-grey ,.text, .price{
+    margin-left: 4px;
+}
+button{
+    border: none;
+    background-color: white;
+}
+.themvao{
+    height: 30px;
+    border: 1px solid black;
+    margin-left: 10px;
+    color: white;
+    /* font-size: 20px; */
+    background: orangered;
+    border: none;
+}
+.soluong button{
+    width: 30%;
+}
+.mot{
+    margin-top: 6px;
+    color: grey;
+}
+.contents .soluong{
+    float: left;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    height: 30px;
+    width: 40px;
+    border: 1px solid black;
+    background-color: white;
+}
